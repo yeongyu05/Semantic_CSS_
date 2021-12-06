@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+nav,
+section,
+article,
+aside,
+footer {
+    width: 90%;
+    margin: 20px auto;
+    border: 5px solid black;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+header {
+    background: red;
+    height: 100px;
+    line-height: 100px;
+}
+
+nav {
+    background: blue;
+    height: 100px;
+    line-height: 100px;
+}
+
+section {
+    background: blueviolet;
+    height: 300px;
+}
+
+article {
+    background: yellowgreen;
+    height: 90px;
+    line-height: 90px;
+}
+
+aside {
+    background: darkslategray;
+    height: 200px;
+    line-height: 200px;
+}
+
+footer {
+    background: green;
+    height: 100px;
+    line-height: 100px;
+}
